@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://zonelikewonderland.top
+url: https://mazhuang.org
 date_format: "ordinal"
-title: ZoneLikeWonderland
-subtitle: "@小张高手"
-description: "小张高手的个人博客"
-keywords: zonelikewonderland, 小张高手, zhanglw2, algorithm
+title: 码志
+subtitle: "公众号：闷骚的程序员"
+description: "马壮的个人博客，公众号：闷骚的程序员"
+keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: zonelikewonderland
-organization: ShanghaiTech
+author: Zhuang Ma
+organization: 
 organization_url: 
-github_username: zonelikewonderland
-location: Shanghai, China
-email: zhanglw2@shanghaitech.edu.cn
+github_username: mzlogin
+location: Wuhan, China
+email: chumpma@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -92,20 +92,20 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: xiaozhanggaoshou
+    username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: zonelikewonderland
+    owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: 59be6509a45126b7e534
-        client_secret: 0b9c9d174680d4d688e33b5d2b5ea1ad5ddc0ecb
+        client_id: d2e1cbbd298958076462
+        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: zonelikewonderland
+    owner: mzlogin
     repo: blog-comments
-    clientID: 59be6509a45126b7e534
-    clientSecret: 0b9c9d174680d4d688e33b5d2b5ea1ad5ddc0ecb
+    clientID: d2e1cbbd298958076462
+    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -114,7 +114,7 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: true
+    fulltext: false
     # 最多显示多少条搜索结果
     limit: 10
 
@@ -122,4 +122,4 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-162098414-1
+    analytics_id: UA-80669434-1
