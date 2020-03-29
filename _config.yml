@@ -61,6 +61,7 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
+    hard_wrap: true
 highlighter: rouge
 paginate: 10
 lsi: false
@@ -81,7 +82,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: zonelikewonderland/zonelikewonderland.github.io
 
 # ---------------- #
 #      Comments    #
