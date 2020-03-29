@@ -1,6 +1,13 @@
-.home .banner,
-.home .site-header {
+.home .banner{
     background: #4183c4;
+    background-image: url(/images/background/saber.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #fff
+}
+
+.home .site-header {
+    background: #00000054;
     color: #fff
 }
 
