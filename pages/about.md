@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 无
+keywords: zonelikewonderland, zhanglw2, 小张高手
 comments: true
 menu: 关于
 permalink: /about/
