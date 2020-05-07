@@ -21,3 +21,7 @@
 - name: CTF time
   url: https://ctftime.org/
   src: life
+  
+- name: DeepL translator
+  url: https://www.deepl.com/translator
+  src: life
