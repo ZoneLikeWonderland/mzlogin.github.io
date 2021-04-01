@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Neural Video Portrait Relighting in Real-time via Consistency Modeling</title>
+</head>
+
+<body>
+
+    <div class="container" style="padding-top: 100px;padding-bottom: 100px;">
+        <div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-center">
+                    <h1>Neural Video Portrait Relighting in Real-time via Consistency Modeling</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-center">
+                    Longwen Zhang<sup>1,2</sup>&ensp;&ensp;
+                    Qixuan Zhang<sup>1,2</sup>&ensp;&ensp;
+                    Minye Wu<sup>1,3</sup>&ensp;&ensp;
+                    Jingyi Yu<sup>1</sup>&ensp;&ensp;
+                    Lan Xu<sup>1</sup>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-center font-weight-light">
+                    <sup>1</sup>ShanghaiTech University&ensp;&ensp;
+                    <sup>2</sup>Deemos Technology&ensp;&ensp;
+                    <sup>3</sup>University of Chinese Academy of Sciences
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-left">
+                    <h2>Abstract</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    Video portraits relighting is critical in user-facing human photography, especially for immersive
+                    VR/AR experience.
+
+                    Recent advances still fail to recover consistent relit result under dynamic illuminations from
+                    monocular RGB stream, suffering from the lack of video consistency supervision.
+
+                    In this paper, we propose a neural approach for real-time, high-quality and coherent video portrait
+                    relighting, which jointly models the semantic, temporal and lighting consistency using a new dynamic
+                    OLAT dataset.
+
+                    We propose a hybrid structure and lighting disentanglement in an encoder-decoder architecture, which
+                    combines a multi-task and adversarial training strategy for semantic-aware consistency modeling.
+
+                    We adopt a temporal modeling scheme via flow-based supervision to encode the conjugated temporal
+                    consistency in a cross manner.
+
+                    We also propose a lighting sampling strategy to model the illumination consistency and mutation for
+                    natural portrait light manipulation in real-world.
+
+                    Extensive experiments demonstrate the effectiveness of our approach for consistent video portrait
+                    light-editing and relighting, even using mobile computing.
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-left">
+                    <h2>Pipeline</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-left">
+                    <img src="pipeline.png" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-left">
+                    <h2>Results</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- <div class="col"> -->
+                <div class="embed-responsive embed-responsive-16by9 col-8">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fN1cgbsnUTc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-left">
+                    <h2>Code</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 text-left">
+                    We publish testing code with pre-trained model (DOWNLOAD HERE) and the code for data preparation (
+                    <a
+                        href="https://github.com/ZoneLikeWonderland/Neural-Video-Portrait-Relighting-in-Real-time-via-Consistency-Modeling">DOWNLOAD
+                        HERE</a>
+                    )
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
